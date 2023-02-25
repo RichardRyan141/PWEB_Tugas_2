@@ -1,1 +1,2 @@
-# PWEB_Tugas_2
+Richard Ryan  
+5025211141
