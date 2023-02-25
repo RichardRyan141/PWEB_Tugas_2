@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>International Insider</title>
+	<style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d3d3d3;
+            padding: 20px;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        .tag-link {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333333;
+            text-decoration: none;
+            margin-right: 20px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid transparent;
+        }
+
+        .tag-link:hover {
+            border-bottom-color: #333333;
+        }
+
+        .tag-link.active {
+            border-bottom-color: #4c4c4c;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .article {
+            width: 31%;
+            margin-bottom: 30px;
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+        }
+
+        .article img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .article-content {
+            padding: 20px;
+        }
+
+        .article-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .article-summary {
+            font-size: 16px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+	</style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://assets-global.website-files.com/6144d21077ff5d22d622d810/61571306df0d548c0134e86e_newstex-benefit-icon.svg" alt="Logo">
+            <h1>International Insider</h1>
+        </div>
+        <nav class="tag-nav">
+            <a href="#" class="tag-link active" data-tag="all">All</a>
+            <a href="#" class="tag-link" data-tag="UkrVsRus">Ukraine vs Russia</a>
+            <a href="#" class="tag-link" data-tag="tech">Technology</a>
+            <a href="#" class="tag-link" data-tag="sci">Science</a>
+            <a href="#" class="tag-link" data-tag="business">Business</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="article" data-tag="UkrVsRus">
+                <a href="https://www.bbc.com/news/world-europe-64762219">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/27BE/production/_128747101_mediaitem128747097.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/world-europe-64762219">
+                        <h2 class="article-title">Zelensky Seeks Meeting with China's Xi Jinping to Discuss a Peace Proposal</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/world-europe-64762219">
+                        <p class="article-summary">According to Ukraine's leader, Beijing's plea for a ceasefire in the Ukrainian conflict is a sign of China's active involvement in the pursuit of peace.</p>
+                    </a>
+                    <p class="article-date">25 February 2023</p>
+                </div>
+            </div>
+            <div class="article" data-tag="tech">
+                <a href="https://www.bbc.com/news/world-us-canada-64767178">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/18622/production/_128747899_crypto.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/world-us-canada-64767178">
+                        <h2 class="article-title">Cryptocurrency Mining Operation Discovered in Crawlspace of US School</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/world-us-canada-64767178">
+                        <p class="article-summary">Following the janitor's observation of unusual electrical wiring, ductwork, and computer equipment, the police were alerted and called in to investigate.</p>
+                    </a>
+                    <p class="article-date">25 February 2023</p>
+                </div>
+            </div>
+            <div class="article" data-tag="UkrVsRus">
+                <a href="https://www.bbc.com/news/uk-england-derbyshire-64747949">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/17614/production/_128746759_c5137fdd-fc8f-4fec-8df3-e1192e3bd41a.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/uk-england-derbyshire-64747949">
+                        <h2 class="article-title">Anniversary of Ukraine War Commemorated by Local Communities</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/uk-england-derbyshire-64747949">
+                        <p class="article-summary">The commencement of the Russian invasion is being commemorated by Nottinghamshire, Derbyshire, and Leicestershire.</p>
+                    </a>
+                    <p class="article-date">25 February 2023</p>
+                </div>
+            </div>
+            <div class="article" data-tag="UkrVsRus">
+                <a href="https://www.bbc.com/news/uk-england-leeds-64760778">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/12ED4/production/_128742577_de27.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/uk-england-leeds-64760778">
+                        <h2 class="article-title">A Mother's Difficult Journey Out of Ukraine to Give Birth</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/uk-england-leeds-64760778">
+                        <p class="article-summary">Daniella Claims to Have Walked from Ukraine to Romania to Deliver her Baby before Seeking Refuge in the UK.</p>
+                    </a>
+                    <p class="article-date">25 February 2023</p>
+                </div>
+            </div>
+            <div class="article" data-tag="business">
+                <a href="https://www.bbc.com/news/business-64740128">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/8B81/production/_128731753_sbf.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/business-64740128">
+                        <h2 class="article-title">FTX Founder Faces Four Additional Criminal Charges</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/business-64740128">
+                        <p class="article-summary">Sam Bankman-Fried Allegedly Made Over 300 Unlawful Political Contributions, According to Accusations.</p>
+                    </a>
+                    <p class="article-date">24 February 2023</p>
+                </div>
+            </div>
+            <div class="article" data-tag="sci">
+                <a href="https://www.bbc.com/news/uk-scotland-highlands-islands-64756840">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/6468/production/_128740752_applecrossdig.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/uk-scotland-highlands-islands-64756840">
+                        <h2 class="article-title">Iron Age Burial Site Discovered Under Kitchen Floor, Confirmed by Unearthed Bones.</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/uk-scotland-highlands-islands-64756840">
+                        <p class="article-summary">Initially believed to be a crime scene from the 18th century, the finding beneath an estate office in Applecross has been confirmed to be an Iron Age burial site following the unearthing of bones.</p>
+                    </a>
+                    <p class="article-date">24 February 2023</p>
+                </div>
+            </div>
+            <div class="article" data-tag="business">
+                <a href="https://www.bbc.com/news/business-64753499">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/B147/production/_128738354_netflix-index-reuters.jpg" alt="Article Image">
+                </a>
+                <div class="article-content">
+                    <a href="https://www.bbc.com/news/business-64753499">
+                        <h2 class="article-title">Netflix Reduces Prices in Over 30 Countries.</h2>
+                    </a>
+                    <a href="https://www.bbc.com/news/business-64753499">
+                        <p class="article-summary">Amid growing competition from competitors such as Amazon, HBO, and Disney, the streaming giant has opted to cut prices in more than 30 countries.</p>
+                    </a>
+                    <p class="article-date">24 February 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2023 International Insider. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
